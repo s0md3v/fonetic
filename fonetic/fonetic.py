@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 bigrams = {'aa': ['l', 'z', 'k', 'b', 'r'], 'ab': 1, 'ac': 1, 'ad': 1, 'ae':
 ['a', 'c', 'f', 's', 'l', 'd', 'g', 'e', 'b', 'h', 'k',
 'v', 'i', 't', 'm', 'r', 'n', 'p'], 'af': ['c', 'f', 'l',
