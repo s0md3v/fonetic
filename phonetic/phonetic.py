@@ -282,7 +282,7 @@ bigrams = {'aa': ['l', 'z', 'k', 'b', 'r'], 'ab': 1, 'ac': 1, 'ad': 1, 'ae':
 'zy': ['a', 'w', 'o', 'z', 'e', 't', 'n', 'u'], 'zz': ['a',
 'o', 'e', 'i', 'u']}
 
-def somdev(string, bigrams):
+def count(string):
     i = bad = good = total = 0
     string = string.lower()
     previous_char = '*'
