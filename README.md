@@ -19,7 +19,9 @@
 
 
 ### Introduction
-Fonetic is a python library to caculate assess pronounceablility of a given text based on an algorithm . It may be used in:
+Fonetic is a python library to caculate assess pronounceablility of a given text based on an algorithm invented by Somdev Sangwan. A related research paper can be found [here](https://github.com/s0md3v/MyPapers/tree/master/A%20Phonetic%20Approach%20to%20Calculate%20Linguistic%20Information%20in%20Text).
+
+**fonetic** can be used in:
 
 - Detecting randomly generated strings
 - Heuristic checking for spell checkers
