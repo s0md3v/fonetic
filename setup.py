@@ -10,7 +10,7 @@ def abs_path(*relative_path_parts):
                         *relative_path_parts)
 
 
-name = 'phonetic'
+name = 'fonetic'
 
 with codecs.open(abs_path(name, '__init__.py'), 'r', 'utf-8') as fp:
     try:
@@ -22,14 +22,15 @@ with codecs.open(abs_path(name, '__init__.py'), 'r', 'utf-8') as fp:
 setup(
     name=name,
     version=version,
-    url='https://github.com/s0md3v/Phonetic',
-    download_url='https://github.com/s0md3v/Phonetic/tarball/master',
+    url='https://github.com/s0md3v/fonetic',
+    download_url='https://github.com/s0md3v/fonetic/tarball/master',
     author='Somdev Sangwan',
     author_email='s0md3v@gmail.com',
-    description='Calculate pronouncibility of text',
-    keywords='phonetic, linguistic, entropy, spell check',
+    description='Assess pronouncibility of text',
+    keywords='fonetic, linguistic, entropy, spell check',
     packages=find_packages(),
-    py_modules=['phonetic'],
+    python_requires='>=2',
+    py_modules=['fonetic'],
     data_files=[('', ['LICENSE'])],
     include_package_data=True,
     classifiers=[
@@ -38,13 +39,7 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
         'Operating System :: OS Independent',
         'Environment :: Console',
         'Topic :: Software Development :: Libraries :: Python Modules',
