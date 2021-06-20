@@ -296,7 +296,7 @@ def count(string):
         next_char = string[i + 1]
         if next_char not in alphas:
             next_char = '*'
-            if previous_char not in alphas and current_char in 'bcdefghjklmnopqrstuvwxyz':
+            if previous_char not in alphas and current_char in alphas:
                 bad += 1
                 total += 1
             previous_char = current_char
